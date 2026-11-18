@@ -93,3 +93,11 @@ h1 { font-size: clamp(48px,6.2vw,76px); margin-bottom: 22px; }
   .section { padding-block: 75px; }.section-heading { margin-bottom: 30px; }.about-grid, .contact-grid { grid-template-columns: 1fr; gap: 28px; }.about-note { min-height: 175px; }.about-note p { font-size: 21px; }.skills-grid { gap: 10px; }.skill-card { padding: 18px 15px; }.skill-card p { min-height: 78px; }.projects-grid { grid-template-columns: 1fr; gap: 32px; }.project-large { grid-column: auto; }.project-large .project-preview { min-height: 260px; }.mock-browser { width: 82%; }.mock-content { padding: 22px 18px; }.mock-content b { font-size: 30px; }.mock-shape { width: 90px; height: 90px; right: 18px; }.project-preview { min-height: 245px; }.service-row { grid-template-columns: 32px 1fr 20px; gap: 10px; padding: 22px 0; }.service-row h3 { font-size: 17px; }.service-row p { font-size: 11px; }.contact-form { padding: 20px; }.footer { min-height: 115px; flex-wrap: wrap; justify-content: space-between; padding-block: 22px; }.footer p { order: 3; width: 100%; }
 }
 @media (max-width: 380px) { h1 { font-size: 43px; }.hero-meta { flex-wrap: wrap; }.hero-meta div { min-width: 28%; }.skills-grid { grid-template-columns: 1fr; }.skill-card p { min-height: 0; }.float-tag { font-size: 9px; }.hero-art { min-height: 350px; } }
+/* THE CUPS project preview */
+.preview-cups { background: radial-gradient(circle at 72% 28%, #76533b 0, #302017 38%, #17110e 78%); }
+.cups-preview { position: relative; width: 76%; min-height: 205px; padding: 25px; overflow: hidden; border: 1px solid rgba(224,190,145,.35); background: linear-gradient(135deg, #211711, #100d0b); color: #f2e6d4; box-shadow: 0 18px 45px #0007; }
+.cups-kicker, .cups-caption { display: block; color: #c7a77e; font-size: 7px; letter-spacing: 2px; }
+.cups-preview b { display: block; position: relative; z-index: 1; margin-top: 17px; font: 700 39px/.88 var(--display); letter-spacing: -2px; }
+.cups-preview b em { color: #c9a77c; font-style: normal; }
+.cups-caption { margin-top: 16px; font-size: 6px; letter-spacing: 1.5px; }
+.cups-stamp { position: absolute; right: 18px; bottom: 20px; display: grid; place-items: center; width: 66px; height: 66px; border: 1px solid #c9a77c; border-radius: 50%; color: #e4c9a5; font: 8px/1.5 var(--display); text-align: center; letter-spacing: 1px; transform: rotate(10deg); }
